@@ -6,4 +6,4 @@
 Our goal is to help you resolve findings. We not only fix issues but also provide clear instructions and automated solutions to keep everything running smoothly.
 
 **AWS Controls**
-- [S3.8](aws/controls/S3.8/README.md)
+- [S3.8](AWS/Controls/S3.8/README.md)
