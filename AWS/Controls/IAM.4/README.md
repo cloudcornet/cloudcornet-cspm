@@ -5,6 +5,7 @@
 |-------------|-------------|
 | **ID**  | IAM.4  |
 | **Title**  | IAM root user access key should not exist |
+| **Severity**  | Critical  |
 | **AWS**  | [AWS Remediation instructions](https://docs.aws.amazon.com/console/securityhub/IAM.4/remediation)
 | **Cloudcornet**  | Follow below instructions |
 
