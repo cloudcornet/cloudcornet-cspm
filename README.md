@@ -1,9 +1,17 @@
 
- <center> <h1>CLOUDCORNET CSPM</h1> </center>
- 
-[![cloudcornet](https://www.cloudcornet.com/_astro/logo.54I3GuID_1J6Sta.webp)](#)
+<center><h1>CLOUDCORNET CSPM</h1></center>
 
-Our goal is to help you resolve findings. We not only fix issues but also provide clear instructions and automated solutions to keep everything running smoothly.
+<p align="center">
+  <img src="https://www.cloudcornet.com/_astro/logo.54I3GuID_1J6Sta.webp">
+</p>
 
-**AWS Controls**
-- [S3.8](AWS/Controls/S3.8/README.md)
+Our goal is to help you fix security findings.  
+We not only remediate issues but also provide clear guidance and automated solutions to maintain a secure and smooth operation.
+
+**AWS Security Hub Controls**
+
+| ID | Severity | Title | Remediation instructions |
+| - | - | - | - |
+| IAM.4 | Critical | IAM root user access key should not existpublic | [Link](AWS/Controls/IAM.4/README.md)
+| S3.8 | High | S3 general purpose buckets should block public | [Link](AWS/Controls/S3.8/README.md)
+
