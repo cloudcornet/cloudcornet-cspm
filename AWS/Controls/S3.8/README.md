@@ -5,6 +5,7 @@
 |-------------|-------------|
 | **ID**  | S3.8  |
 | **Title**  | S3 general purpose buckets should block public access |
+| **Severity**  | High    |
 | **AWS**  | [AWS Remediation instructions](https://docs.aws.amazon.com/securityhub/latest/userguide/s3-controls.html#s3-8)
 | **Cloudcornet**  | Follow below instructions |
 
