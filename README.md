@@ -13,5 +13,6 @@ We not only remediate issues but also provide clear guidance and automated solut
 | ID | Severity | Title | Remediation instructions |
 | - | - | - | - |
 | IAM.4 | Critical | IAM root user access key should not exist | [Link](AWS/Controls/IAM.4/README.md)
+| IAM.28 | High | IAM Access Analyzer external access analyzer should be enabled | [Link](AWS/Controls/IAM.28/README.md)
 | S3.8 | High | S3 general purpose buckets should block public | [Link](AWS/Controls/S3.8/README.md)
 
