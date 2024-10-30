@@ -8,6 +8,7 @@
 | **Severity**  | High  |
 | **AWS**  | [AWS Remediation instructions](https://docs.aws.amazon.com/console/securityhub/IAM.28/remediation)
 | **Cloudcornet**  | Follow below instructions |
+
 **Pre-requisite**
 - Install and configure AWS CLI
 - Install Terraform
