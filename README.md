@@ -5,7 +5,8 @@
   <img src="https://www.cloudcornet.com/_astro/logo.54I3GuID_1J6Sta.webp">
 </p>
 
-Our goal is to help you resolve security findings with a single click. Our plan includes an end-to-end automated process with full logging, version control, and Infrastructure as Code (IaC) to manage remediations effectively.
+Our goal is to help you resolve security findings with a single click.
+Our plan includes an end-to-end automated process with full logging, version control, and Infrastructure as Code (IaC) to manage remediations effectively.
 
 **AWS Security Hub Controls**
 
