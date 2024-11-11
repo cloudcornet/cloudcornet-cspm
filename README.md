@@ -8,7 +8,7 @@
 Our goal is to help you resolve security findings with a single click.
 Our plan includes an end-to-end automated process with full logging, version control, and Infrastructure as Code (IaC) to manage remediations effectively.
 
-**AWS Security Hub Controls**
+### AWS Security Hub Controls
 
 | ID | Severity | Title | Remediation instructions |
 | - | - | - | - |
@@ -19,21 +19,21 @@ Our plan includes an end-to-end automated process with full logging, version con
 | S3.8 | High | S3 general purpose buckets should block public | [Link](AWS/Controls/S3.8/README.md)
 
 
-# AWS Security Hub Controls (ongoing work)
+### AWS Security Hub Controls (ongoing work)
 
 | Control Id | Title | Severity | Config Rule | Fix | Link |
 |------------|-------|----------|-------------|-----|------|
 | Account.1 | Security contact information should be provided for an AWS account. | Medium | securityhub-security-account-information-provided-xxxxxxxx | Automated | |
 | Account.2 | AWS account should be part of an AWS Organizations organization | High | securityhub-account-part-of-organizations-xxxxxxxx | | |
 | | | | | | |
-| IAM.1 | IAM policies should not allow full "*" administrative privileges | High | securityhub-iam-policy-no-statements-with-admin-access-ed1dd490 | | |
+| IAM.1 | IAM policies should not allow full "*" administrative privileges | High | securityhub-iam-policy-no-statements-with-admin-access-xxxxxxxx | | |
 | IAM.3 | IAM users' access keys should be rotated every 90 days or less | Medium | securityhub-access-keys-rotated-xxxxxxxx | | |
 | IAM.4 | IAM root user access key should not exist | Critical | securityhub-iam-root-access-key-check-xxxxxxxx | Manual | |
 | IAM.5 | MFA should be enabled for all IAM users that have a console password | Medium | securityhub-mfa-enabled-for-iam-console-access-xxxxxxxx | | |
-| IAM.6 | Hardware MFA should be enabled for the root user | Critical | securityhub-root-account-hardware-mfa-enabled-4c5b03f4 | | |
+| IAM.6 | Hardware MFA should be enabled for the root user | Critical | securityhub-root-account-hardware-mfa-enabled-xxxxxxxx | | |
 | IAM.7 | Password policies for IAM users should have strong configurations | Medium | securityhub-iam-password-policy-recommended-defaults-xxxxxxxx | Automated | |
 | IAM.8 | Unused IAM user credentials should be removed | Medium | securityhub-iam-user-unused-credentials-check-xxxxxxxx | | |
-| IAM.9 | MFA should be enabled for the root user | Critical | securityhub-root-account-mfa-enabled-3c663172 | | |
+| IAM.9 | MFA should be enabled for the root user | Critical | securityhub-root-account-mfa-enabled-xxxxxxxx | | |
 | IAM.10 | Password policies for IAM users should have strong configurations | Medium | securityhub-iam-password-policy-recommended-defaults-no-symbols-required-xxxxxxxx | Automated | |
 | IAM.11 | Ensure IAM password policy requires at least one uppercase letter | Medium | securityhub-iam-password-policy-uppercase-letter-check-xxxxxxxx | Automated | |
 | IAM.12 | Ensure IAM password policy requires at least one lowercase letter | Medium | securityhub-iam-password-policy-lowercase-letter-check-xxxxxxxx | Automated | |
@@ -69,7 +69,7 @@ Our plan includes an end-to-end automated process with full logging, version con
 | GuardDuty.9 | GuardDuty RDS Protection should be enabled | High | securityhub-guardduty-rds-protection-enabled-xxxxxxxx | Automated | |
 | GuardDuty.10 | GuardDuty S3 Protection should be enabled | High | securityhub-guardduty-s3-protection-enabled-xxxxxxxx | Automated | |
 
-Currently, 22 controls are fully automated.
+Currently, **22 controls** are fully automated.
 Terraform code will be provided soon—stay tuned, as we update this list nearly every day.
 
 We’ll show you how, right after creating a new account, you can achieve 100% compliance for each security standard enabled in Security Hub.
