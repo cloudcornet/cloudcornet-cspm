@@ -68,8 +68,10 @@ Our plan includes an end-to-end automated process with full logging, version con
 | GuardDuty.8 | GuardDuty Malware Protection for EC2 should be enabled | High | securityhub-guardduty-malware-protection-enabled-xxxxxxxx | Automated | |
 | GuardDuty.9 | GuardDuty RDS Protection should be enabled | High | securityhub-guardduty-rds-protection-enabled-xxxxxxxx | Automated | |
 | GuardDuty.10 | GuardDuty S3 Protection should be enabled | High | securityhub-guardduty-s3-protection-enabled-xxxxxxxx | Automated | |
+| | | | | | |
+| Macie.1 | Macie should be enabled | Medium | securityhub-macie-status-check-xxxxxxxx | Automated | |
 
-Currently, **22 controls** are fully automated.
+Currently, **23 controls** are fully automated.
 Terraform code will be provided soon—stay tuned, as we update this list nearly every day.
 
 We’ll show you how, right after creating a new account, you can achieve 100% compliance for each security standard enabled in Security Hub.
