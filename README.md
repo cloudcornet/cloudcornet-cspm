@@ -16,6 +16,7 @@ Our plan includes an end-to-end automated process with full logging, version con
 | IAM.15 | Medium | Ensure IAM password policy requires minimum password length of 14 or greater | [Link](AWS/Controls/IAM.15/README.md)
 | IAM.16 | Low | Ensure IAM password policy prevents password reuse | [Link](AWS/Controls/IAM.16/README.md)
 | IAM.28 | High | IAM Access Analyzer external access analyzer should be enabled | [Link](AWS/Controls/IAM.28/README.md)
+| S3.5 | Medium | S3 general purpose buckets should require requests to use SSL| [Link](AWS/Controls/S3.5/README.md)
 | S3.8 | High | S3 general purpose buckets should block public | [Link](AWS/Controls/S3.8/README.md)
 
 
