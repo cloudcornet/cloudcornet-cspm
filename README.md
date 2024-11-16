@@ -12,7 +12,7 @@ Our plan includes an end-to-end automated process with full logging, version con
 ### Current AWS Security Hub Controls with remediation instructions
 
 | ID | Severity | Title | Remediation instructions |
-| - | - | - | - |
+| - | - | - | :--: |
 | IAM.4 | Critical | IAM root user access key should not exist | [Link](AWS/Controls/IAM.4/README.md)
 | IAM.15 | Medium | Ensure IAM password policy requires minimum password length of 14 or greater | [Link](AWS/Controls/IAM.15/README.md)
 | IAM.16 | Low | Ensure IAM password policy prevents password reuse | [Link](AWS/Controls/IAM.16/README.md)
