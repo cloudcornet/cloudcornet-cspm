@@ -8,10 +8,8 @@
 Our goal is to help you resolve security findings with a single click.
 Our plan includes an end-to-end automated process with full logging, version control, and Infrastructure as Code (IaC) to manage remediations effectively.
 
-### AWS Security Hub Controls
 
-
-### AWS Security Hub Controls
+### Current AWS Security Hub Controls with remediation instructions
 
 | ID | Severity | Title | Remediation instructions |
 | - | - | - | - |
@@ -23,6 +21,9 @@ Our plan includes an end-to-end automated process with full logging, version con
 | S3.8 | High | S3 general purpose buckets should block public | [Link](AWS/Controls/S3.8/README.md)
 
 
+### Complete list of AWS Security Hub Controls
+
+Plan is to have all the below list covered with detailled remediation instructions.
 
 | Security control ID | Security control title                                                                                                          | Applicable standards                                                                                                                                                                                                                                  | Severity | Remediation available                                                     | Remediation instructions                                                                                                              |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
