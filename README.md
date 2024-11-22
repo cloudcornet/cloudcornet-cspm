@@ -13,7 +13,7 @@ Our plan includes an end-to-end automated process with full logging, version con
 
 | Security control ID | Security control Title | Severity | Remediation link |
 | ------------------- | ---------------------- | -------- | :-: |
-| Account.1 | Security contact information should be provided for an AWS account | MEDIUM | [Link](AWS/Controls/ACCOUNT/Account.1/README.md) |
+| Account.1 | Security contact information should be provided for an AWS account | MEDIUM | [Link](AWS/Controls/ACCOUNT/ACCOUNT.1/README.md) |
 | Account.2 | AWS account should be part of an AWS Organizations organization | HIGH |  |
 | IAM.4 | IAM root user access key should not exist | CRITICAL | [Link](AWS/Controls/IAM/IAM.4/README.md) |
 | IAM.16 | Ensure IAM password policy prevents password reuse | LOW | [Link](AWS/Controls/IAM/IAM.16/README.md) |
