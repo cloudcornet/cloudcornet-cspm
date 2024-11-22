@@ -16,6 +16,7 @@ Our plan includes an end-to-end automated process with full logging, version con
 | Account.1 | Security contact information should be provided for an AWS account | MEDIUM | [Link](AWS/Controls/ACCOUNT/ACCOUNT.1/README.md) |
 | Account.2 | AWS account should be part of an AWS Organizations organization | HIGH |  |
 | IAM.4 | IAM root user access key should not exist | CRITICAL | [Link](AWS/Controls/IAM/IAM.4/README.md) |
+| IAM.10 | Password policies for IAM users should have strong configurations | MEDIUM | [Link](AWS/Controls/IAM/IAM.10/README.md) |
 | IAM.16 | Ensure IAM password policy prevents password reuse | LOW | [Link](AWS/Controls/IAM/IAM.16/README.md) |
 | IAM.28 | IAM Access Analyzer external access analyzer should be enabled | HIGH | [Link](AWS/Controls/IAM/IAM.28/README.md) |
 | S3.5 | S3 general purpose buckets should require requests to use SSL | MEDIUM | [Link](AWS/Controls/S3/S3.5/README.md) |
