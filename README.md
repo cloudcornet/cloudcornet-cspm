@@ -5,23 +5,36 @@
   <img src="https://www.cloudcornet.com/_astro/logo.54I3GuID_1J6Sta.webp">
 </p>
 
-Our goal is to help you resolve security findings with a single click.
+Our goal is to help you resolve security findings with a single click.   
 Our plan includes an end-to-end automated process with full logging, version control, and Infrastructure as Code (IaC) to manage remediations effectively.
 
 
 ### Current AWS Security Hub Controls with remediation instructions
 
-| ID | Severity | Title | Remediation instructions |
-| - | - | - | :--: |
-| IAM.4 | Critical | IAM root user access key should not exist | [Link](AWS/Controls/IAM.4/README.md)
-| IAM.15 | Medium | Ensure IAM password policy requires minimum password length of 14 or greater | [Link](AWS/Controls/IAM.15/README.md)
-| IAM.16 | Low | Ensure IAM password policy prevents password reuse | [Link](AWS/Controls/IAM.16/README.md)
-| IAM.28 | High | IAM Access Analyzer external access analyzer should be enabled | [Link](AWS/Controls/IAM.28/README.md)
-| S3.5 | Medium | S3 general purpose buckets should require requests to use SSL| [Link](AWS/Controls/S3.5/README.md)
-| S3.8 | High | S3 general purpose buckets should block public | [Link](AWS/Controls/S3.8/README.md)
+| Security control ID | Security control Title | Severity | Remediation link |
+| ------------------- | ---------------------- | -------- | :-: |
+| Account.1 | Security contact information should be provided for an AWS account | MEDIUM | [Link](AWS/Controls/ACCOUNT/Account.1/README.md) |
+| Account.2 | AWS account should be part of an AWS Organizations organization | HIGH |  |
+| IAM.4 | IAM root user access key should not exist | CRITICAL | [Link](AWS/Controls/IAM/IAM.4/README.md) |
+| IAM.16 | Ensure IAM password policy prevents password reuse | LOW | [Link](AWS/Controls/IAM/IAM.16/README.md) |
+| IAM.28 | IAM Access Analyzer external access analyzer should be enabled | HIGH | [Link](AWS/Controls/IAM/IAM.28/README.md) |
+| S3.5 | S3 general purpose buckets should require requests to use SSL | MEDIUM | [Link](AWS/Controls/S3/S3.5/README.md) |
+| S3.8 | S3 general purpose buckets should block public access | HIGH | [Link](AWS/Controls/S3/S3.8/README.md) |
 
+
+| Standard | Total of controls | Achieved % | 
+|-|:-:|:-:| 
+| AWS Foundational Security Best Practices v1.0.0 | 267 | | 
+| CIS AWS Foundations Benchmark v1.2.0  | 42 | | 
+| CIS AWS Foundations Benchmark v1.4.0  | 39 | |  
+| CIS AWS Foundations Benchmark v3.0.0  | 36 | | 
+| AWS Resource Tagging Standard v1.0.0  | 81 | | 
+| PCI DSS v3.2.1  | 44 |
+| NIST Special Publication 800-53 Revision 5 | 263 |
 
 ### Complete list of AWS Security Hub Controls
+
+
 
 Plan is to have all the below list covered with detailled remediation instructions.
 
